@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi primer Website</title>
+    <link rel="stylesheet" type="text/css" href="mi-primer-website.css">
+</head>
+
+<body>
+    <h1>¡Bienvenidos a mi primer Website!</h1>
+    <p>Soy Margarita Ibarra, ¡y esta es mi primera página web!</p>
+    <p>Estoy aprendiendo desarrollo web para crear sitios web
+        visualmente atrapantes y funcionales.</p>
+    <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+        Estos lenguajes me ayudarán a crear una base sólida en el desarrollo
+        web front-end.</p>
+    <h2>Inicios</h2>
+    <h2>Avances</h2>
+    <br>
+    <div id="mi-id">Contenido de mi elemento id</div>
+    <br>
+    <div class="mi-clase">Contenido de mi elemento clase</div>
+    <br>
+    <div class="box">
+        <p>Contenido de la caja</p>
+    </div>
+    <!--Comentarios que no se ven reflejados en el front-end-->
+    <hr>
+    <br>
+    <style>
+        div {
+            border: solid red 2px;
+            margin: 20px;
+        }
+
+        body>div:nth-child(1) {
+            display: none;
+        }
+
+        body>div:nth-child(2) {
+            display: block;
+        }
+
+        body>div:nth-child(3) {
+            display: inline;
+        }
+
+        body>div:nth-child(4) {
+            display: inline-block;
+        }
+
+        body>div:nth-child(5) {
+            display: inherit;
+        }
+
+        body>div:nth-child(6) {
+            display: flex;
+        }
+
+        body>div:nth-child(7) {
+            display: grid;
+        }
+    </style>
+    <div>PADRE none
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE block
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE inline
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE inline-block
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE inherit
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE flex
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE grid
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+   <button onclick="showAlert()">¡Haz clic en mí!</button>
+</body>
+
+</html>
+
+<!--Comentarios que no se ven reflejados en el front-end-->
